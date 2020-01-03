@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <title>Color</title>
+</head>
+<body>
+
+  <div class="main" style="background-color: #aaa;">
+    
+    <div class="col colordiv mt-3" style="color: red;">R            
+      <label for="customRange3" id="red" style="color: red;">0</label>              
+        <input type="range" class="custom-range" min="0" max="255" step="1" value="0" id="redRange">                      
+    </div>
+
+    <div class="col colordiv mt-3" style="color: green;">G
+      <label for="customRange3" id="green" style="color: green;">0</label>              
+        <input type="range" class="custom-range" min="0" max="255" step="1" value="0" id="greenRange">                    
+    </div>
+
+    <div class="col colordiv mt-3" style="color: blue;">B
+      <label for="customRange3" id="blue" style="color: blue;">0</label>              
+        <input type="range" class="custom-range" min="0" max="255" step="1" value="0" id="blueRange">                     
+    </div>
+
+  <div class="hexColor mt-1" id="hexColor">#000000</div>
+
+  </div>
+          
+
+</body>
+
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/myfunction.js"></script>
+
+</html>
